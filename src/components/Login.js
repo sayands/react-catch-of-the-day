@@ -14,6 +14,9 @@ const Login = props => (
 		>
 			Login With Twitter
 		</button>
+		<button className="github" onClick={() => props.authenticate("Google")}>
+			Login With Google
+		</button>
 	</nav>
 );
 
